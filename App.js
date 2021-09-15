@@ -35,7 +35,7 @@ export default function App () {
 
       {
         mySkills.map(skill => (
-          <TouchableOpacity style={styles.buttonSkill}>
+          <TouchableOpacity key={skill} style={styles.buttonSkill}>
             <Text style={styles.textSkill}>
              {skill}
             </Text>
